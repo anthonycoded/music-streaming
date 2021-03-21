@@ -62,7 +62,7 @@ const Upload = ({ open, setOpen }) => {
 
     let res = await axios
       .post(
-        "https://beatdealers.uk.r.appspot.com/tracks/upload-track",
+        "http://localhost:8080/tracks/upload-track",
         newTrack,
         {
           headers: {
